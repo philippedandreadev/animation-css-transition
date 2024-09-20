@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
+}
+h1 {
+    text-align: center;
+}
+/* la transition se met sur l'état de base car elle est partagé avec l'état final. 
+CHANGEMENT DE BACKGROUND AU SURVOL */
+.item {
+    width: 100px;
+    height: 100px;
+    background-color:yellowgreen;
+    border: 3px solid black;
+    transition-duration: 2s;
+}
+.item:hover {
+    background-color: red;
+}
