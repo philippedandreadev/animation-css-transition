@@ -19,9 +19,24 @@ Changement de couleur de fond d'un élément avec une durée de 2s et un délai 
     height: 100px;
     background-color:yellowgreen;
     border: 3px solid black;
-    transition-duration: 3s;
+    transition-duration: 2s;
     transition-delay: 1s;
 }
 .item:hover {
     background-color: red;
+}
+
+/* Déplacement d'un élément avec la propriété translate avec une durée de 2 secondes */
+.item-2 {
+    width: 200px;
+    height: 100px;
+    background-color:teal;
+    border: 5px solid black;
+    transition-duration: 2s;
+}
+
+.item-2:hover {
+    /* on peut également utiliser translateY pour le déplacement sur l'axe verticale ou 
+    utiliser translate(valeur1,valeur2) pour modifier le déplacement sur l'axe horizontale et vertical */
+    transform: translateX(300px);
 }
