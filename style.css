@@ -19,7 +19,8 @@ Changement de couleur de fond d'un élément avec une durée de 2s et un délai 
     height: 100px;
     background-color:yellowgreen;
     border: 3px solid black;
-    transition-duration: 2s;
+    transition-duration: 3s;
+    transition-delay: 1s;
 }
 .item:hover {
     background-color: red;
