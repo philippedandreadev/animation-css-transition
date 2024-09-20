@@ -8,6 +8,7 @@ body {
     margin: 0 auto;
     background-color: white;
     padding: 1em;
+    min-height: 100vh
 }
 h1 {
     text-align: center;
@@ -36,7 +37,25 @@ Changement de couleur de fond d'un élément avec une durée de 2s et un délai 
 }
 
 .item-2:hover {
-    /* on peut également utiliser translateY pour le déplacement sur l'axe verticale ou 
+    /* on peut également utiliser translatY pour le déplacement sur l'axe verticale ou 
     utiliser translate(valeur1,valeur2) pour modifier le déplacement sur l'axe horizontale et vertical */
     transform: translateX(300px);
+}
+
+/* Rotationd'un élément avec la propriété rotate avec un délai de 2s */
+.item-3 {
+    width: 100px;
+    height: 100px;
+    background-color:orange;
+    border: 5px solid black;
+    /* correspond à 
+    transition: <property> <duration> <timing-function> <delay> 
+    */
+    transition: all 1s linear 0.5s;
+}
+
+.item-3:hover {
+    /* on peut également utiliser translatY pour le déplacement sur l'axe verticale ou 
+    utiliser translate(valeur1,valeur2) pour modifier le déplacement sur l'axe horizontale et vertical */
+    transform: rotate(360deg);
 }
