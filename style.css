@@ -13,7 +13,7 @@ h1 {
     text-align: center;
 }
 /* la transition se met sur l'état de base car elle est partagé avec l'état final. 
-CHANGEMENT DE BACKGROUND AU SURVOL */
+Changement de couleur de fond d'un élément avec une durée de 2s et un délai de 1s */ 
 .item {
     width: 100px;
     height: 100px;
